@@ -1,5 +1,5 @@
 {
-    "name": "dreamproduction/drupal-version",
+    "name": "chrlvclaudiu/drupal-version",
     "type": "composer-plugin",
     "require": {
         "composer-plugin-api": "^1.1"
