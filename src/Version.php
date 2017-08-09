@@ -12,6 +12,23 @@ use Composer\IO\IOInterface;
 
 
 class Version implements PluginInterface, EventSubscriberInterface {
+  
+  /**
+   * @var Composer $composer
+   */
+  protected $composer;
+  /**
+   * @var IOInterface $io
+   */
+  protected $io;
+  /**
+   * @var EventDispatcher $eventDispatcher
+   */
+  protected $eventDispatcher;
+  /**
+   * @var ProcessExecutor $executor
+   */
+  protected $executor;
 
 	public function activate(Composer $composer, IOInterface $io) {
 	    $this->composer = $composer;
