@@ -1,0 +1,19 @@
+{
+    "name": "dreamproduction/drupal-version",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "^1.1"
+    },
+    "extra": {
+        "class": "dreamproduction\\Composer\\Version"
+    },
+    "authors": [
+	    {
+	      "name": "Claudiu Chirilov",
+	      "email": "claudiu@dreamproduction.com"
+	    }
+	],
+    "autoload": {
+        "psr-4": {"dreamproduction\\Composer\\": "src"}
+    },
+}
