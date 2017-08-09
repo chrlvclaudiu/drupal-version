@@ -7,7 +7,7 @@ use Composer\Composer;
 use Composer\Util\ProcessExecutor;
 
 
-class Version extends PluginInterface, EventSubscriberInterface {
+class Version implements PluginInterface, EventSubscriberInterface {
 
 	public function activate(Composer $composer, IOInterface $io) {
 	    $this->composer = $composer;
@@ -18,7 +18,7 @@ class Version extends PluginInterface, EventSubscriberInterface {
 
 	public static function getSubscribedEvents() {
 	    return array(
-	        'init' => 'checkDrupalVersion',
+	        'init' => 'checkDrupalVersion'
 	    );
 	}
 
