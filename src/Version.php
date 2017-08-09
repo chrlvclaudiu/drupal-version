@@ -5,6 +5,10 @@ namespace DreamProduction\Composer;
 
 use Composer\Composer;
 use Composer\Util\ProcessExecutor;
+use Composer\Plugin\PluginInterface;
+use Composer\EventDispatcher\EventSubscriberInterface;
+use Composer\Script\Event;
+use Composer\IO\IOInterface;
 
 
 class Version implements PluginInterface, EventSubscriberInterface {
@@ -23,6 +27,6 @@ class Version implements PluginInterface, EventSubscriberInterface {
 	}
 
 	public function checkDrupalVersion(Event $event) {
-
+		$thus-
 	}
 }
