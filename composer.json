@@ -1,6 +1,7 @@
 {
     "name": "chrlvclaudiu/drupal-version",
     "type": "composer-plugin",
+    "minimum-stability": "dev",
     "require": {
         "composer-plugin-api": "^1.1"
     },
