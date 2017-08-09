@@ -27,6 +27,6 @@ class Version implements PluginInterface, EventSubscriberInterface {
 	}
 
 	public function checkDrupalVersion(Event $event) {
-		$thus-
+		$this->io->write('<info>Drupal version check works.</info>');
 	}
 }
