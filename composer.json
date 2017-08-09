@@ -2,6 +2,7 @@
     "name": "chrlvclaudiu/drupal-version",
     "type": "composer-plugin",
     "minimum-stability": "dev",
+    "license": "GPL License",
     "require": {
         "composer-plugin-api": "^1.1"
     },
