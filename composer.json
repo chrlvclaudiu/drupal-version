@@ -3,7 +3,6 @@
     "type": "composer-plugin",
     "minimum-stability": "dev",
     "license": "GPL License",
-    "version": "1.0",
     "require": {
         "composer-plugin-api": "^1.1",
         "sunra/php-simple-html-dom-parser": "^1.5",
